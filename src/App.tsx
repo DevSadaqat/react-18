@@ -1,21 +1,13 @@
 import { useState } from 'react';
 import './App.css';
-import ListGroup from './components/ListGroup';
+import Like from './components/Like';
 
 function App() {
-  let items = ['New York', 'San Francisco', 'Tokyo', 'London', 'Paris'];
-
-  const handleSelectedItem = (item: string) => {
-    console.log(item);
-  };
+  const handle = () => console.log('clicked');
 
   return (
     <div className="App">
-      <ListGroup
-        items={items}
-        heading="Cities"
-        onSelectItem={handleSelectedItem}
-      />
+      <Like></Like>
     </div>
   );
 }

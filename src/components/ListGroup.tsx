@@ -1,4 +1,5 @@
 import { MouseEvent, useEffect, useState } from 'react';
+import styled from 'styled-components';
 
 //{heading: string, items: []}
 interface Props {
