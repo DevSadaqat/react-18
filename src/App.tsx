@@ -1,13 +1,12 @@
 import { useState } from 'react';
 import './App.css';
-import Like from './components/Like';
+import Form from './components/form';
+import './index.css';
 
 function App() {
-  const handle = () => console.log('clicked');
-
   return (
     <div className="App">
-      <Like></Like>
+      <Form></Form>
     </div>
   );
 }
