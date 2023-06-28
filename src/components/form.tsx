@@ -1,6 +1,6 @@
 import React, { FormEvent } from 'react';
 
-//Add prevent deafulat property to prevent te default behaviour of the form
+//Add prevent default property to prevent te default behaviour of the form
 const Form = () => {
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
